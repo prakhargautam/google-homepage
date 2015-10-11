@@ -1,0 +1,172 @@
+a
+{
+    color:black;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+li
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.buttons
+{
+    margin-left:auto;
+    margin-right:auto;
+    width: 584px;
+    padding-top: 18px;
+}
+
+#apps
+{
+    background-image: url(apps1.jpg);
+    margin-right: 15px;
+}
+
+#apps:hover
+{
+    background-image: url(apps2.jpg);
+}
+
+.header
+{
+    text-align: right;
+    font-family: arial;
+}
+
+.header li:first-child
+{
+    color:rgba(0,0,0,0.5);
+}
+.header li
+{
+    margin-right: 12px;
+    margin-top: 8px;
+}
+
+.search
+{
+    width: 300px;
+    height: 30px; 
+}
+
+#pic
+{
+    height:32px; 
+    width: 32px; 
+    float:right; 
+    background-image: url(mypic.jpg);
+    border-radius: 50%;
+    margin: 0px 18px 10px 10px;
+}
+
+#apps
+{
+    height: 30px;
+    width: 30px;
+    float:right;
+}
+
+#notifications
+{
+    height: 30px;
+    width: 30px;
+    float: right;
+    background-image: url(bell%20a.jpg);
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+#notifications:hover
+{
+    background-image: url(bell%20b.jpg);
+}
+
+#logo
+{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right:auto;
+    height: 233px;
+}
+
+input[type="text"]
+{
+    height: 38px;
+    width: 584px;
+    font-size: 16px;
+    color: #000;
+    padding-left: 8px;
+    border: 1px solid #D9D9D9;
+}
+
+input[type="text"]:hover
+{
+    border-color: darkgrey;
+    align-self: center;
+    
+}
+input[type="submit"]:hover
+{
+    color: #000;
+    border-color: lightgrey;
+}
+
+input[type="submit"]
+{
+	font-family: arial;
+	font-weight: bold;
+	color: #757575;
+	background-color: #F2F2F2;
+	margin: 11px 4px;
+	padding: 0px 16px;
+	height: 36px;
+    margin-right: 0px;
+	line-height: 27px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+}
+
+.footer
+{
+    border-top: 1px solid #E4E4E4;
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer a
+{
+    color: rgba(0,0,0,0.6);
+    font-family:arial;
+    margin-right: 18px;
+}
+
+.left
+{
+    float: left;
+    padding-left: 28px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+.right
+{
+    float: right;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+	
