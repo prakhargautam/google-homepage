@@ -23,12 +23,6 @@ li
     padding-top: 18px;
 }
 
-#apps
-{
-    background-image: url(apps1.jpg);
-    margin-right: 15px;
-}
-
 #apps:hover
 {
     background-image: url(apps2.jpg);
@@ -71,6 +65,8 @@ li
     height: 30px;
     width: 30px;
     float:right;
+    background-image: url(apps1.jpg);
+    margin-right: 15px;
 }
 
 #notifications
